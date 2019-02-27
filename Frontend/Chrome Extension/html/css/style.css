@@ -1,0 +1,123 @@
+body {
+	background-image: url("../media/d.png");
+	font-family: "Arial", Times, serif;
+	text-align: center;
+  width:700px;
+    height:1500px;
+}
+
+br {
+   display: block;
+   margin: 5px 0;
+}
+
+.bigger { 
+	font-size: 35px;; 
+}
+
+.medium { 
+	font-size: 30px;; 
+}
+
+
+
+input[type=year], select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+input[type=confirm], select {
+  
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+
+
+input[type=day], select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+
+
+input[type=text], select {
+  
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+input[type=password], select {
+  
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+#submit_button,#submit_button2 {
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input{
+  width:50%;
+}
+
+div {
+  border-radius: 5px;
+
+  padding: 20px;
+}

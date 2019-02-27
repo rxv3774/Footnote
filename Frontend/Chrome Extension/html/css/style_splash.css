@@ -1,0 +1,138 @@
+body {
+	background-image: url("../media/f.png");
+	font-family: "Arial", Times, serif;
+	text-align: center;
+  width:700px;
+}
+
+br {
+   display: block;
+   margin: 5px 0;
+}
+
+.bigger { 
+	font-size: 35px;; 
+}
+
+.medium { 
+	font-size: 30px;; 
+}
+
+
+
+input[type=year], select {
+  width: 9.5%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+input[type=confirm], select {
+  width: 11%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+
+
+input[type=day], select {
+  width: 5%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+
+
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+input[type=password], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+#submit_button {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+select {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 30px 30;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+#submit_button:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+
+  padding: 20px;
+}
+
+
+
+
+p.customfont { 
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+body {
+  background-image: url("../media/comment_1.png");
+  background-repeat: no-repeat;
+  font-family: "Arial", Times, serif;
+  text-align: center;
+  width:600px;
+  height:800px;
+}   
+
+
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+p.customfont { 
+    font-family: 'Montserrat', sans-serif;
+
+}
+p.oops { 
+    font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  margin-left:0px;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10% 2%;
+  text-decoration: none;
+}
+
+li a:hover {
+  cursor: pointer;
+}
+
+p.customfont { 
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+p.oops { 
+    font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.chatbox{
+  clear: both;
+  position: fixed; 
+  bottom: 20px;
+  width:100%;
+  left:0;
+}
+
+
+#chat{
+  width: 70%;
+  padding: 12px;
+  margin-top: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  float:left;
+}
+#submit_button{
+  display: inline-block;
+  background-color:lightgray;
+  color:white;
+  width:10%;
+  margin-top: 30px;
+  padding:15px;
+}
+#submit_button:hover{
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#comments{
+  width:90%;
+  padding:5px;
+  margin:auto;
+  height:auto;
+}
+.comment{
+  width:80%;
+  background-color: white;
+  border: 2px solid lightgray;
+  margin: auto;
+  margin-top: 5px;
+}
+
+#left,#right,#center{
+  width:33.3%;
+  padding:0;
+  margin: 0;
+}
+#left{
+  float:left;
+}
+#center{
+  margin:auto;
+}
+#right{
+  float:right;
+}
+#container{
+  width:300%;
+  clear:both;
+  padding:0;
+  margin: 0;
+  left:0%;
+  transition: 0.5s left;
+  position: absolute;
+  height:auto;
+}

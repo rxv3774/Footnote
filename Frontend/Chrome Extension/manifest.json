@@ -1,0 +1,19 @@
+{
+  "name": "Comments",
+  "version": "1.0",
+  "description": "Allow users to comment on pages.",
+  "manifest_version": 2,
+
+
+  "browser_action":{
+  	"default_popup": "html/signup.html"
+  },
+
+  "icons": { "32": "favicon.png"},
+
+  "permissions": [
+    "http://129.21.113.174:8000/*",
+    "storage",
+    "tabs"
+  ]
+}
